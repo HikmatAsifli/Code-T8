@@ -369,6 +369,27 @@
     border-color: #fff !important;
 }
 
+/*============= Mobile Header =============*/
+.mobile-header {
+    display: none;
+}
+.mobile-header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+#nav-opn-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #f01543;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: -50px;
+}
+
 
 /*============= Banner Section =============*/
 .banner-two {
